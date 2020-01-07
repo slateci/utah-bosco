@@ -1,3 +1,0 @@
-#!/bin/bash
-export LD_LIBRARY_PATH='$ORIGIN/../lib:$ORIGIN/../lib/condor'
-exec ${0}.symlink "$@"
