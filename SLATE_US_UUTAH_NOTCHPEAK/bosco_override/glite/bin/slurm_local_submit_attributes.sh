@@ -1,1 +1,0 @@
-../etc/blahp/slurm_local_submit_attributes.sh
