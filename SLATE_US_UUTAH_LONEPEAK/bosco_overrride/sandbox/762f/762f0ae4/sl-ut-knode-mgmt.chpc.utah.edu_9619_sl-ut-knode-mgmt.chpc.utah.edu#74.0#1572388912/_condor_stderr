@@ -1,0 +1,122 @@
+------- Initial environment ---------------
+SLURM_NODELIST=lp125
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+MANPATH=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/share/man:/usr/kerberos/man:/uufs/chpc.utah.edu/sys/man:/usr/local/share/man:/usr/share/man/overrides:/usr/share/man:/uufs/lonepeak.peaks/sys/pkg/slurm/std/share/man:/uufs/lonepeak.peaks/sys/pkg/slurm/std/share/man
+SLURM_JOB_NAME=bl_da476c495240
+XDG_SESSION_ID=68079
+HOSTNAME=lp125
+SLURM_TOPOLOGY_ADDR=lp125
+SLURMD_NODENAME=lp125
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+__LMOD_REF_COUNT_MODULEPATH=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Linux:1;/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Core:1;/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/modulefiles/Core:1
+SHELL=/bin/bash
+LMOD_ROOT=/uufs/chpc.utah.edu/sys/installdir/lmod
+HISTSIZE=1000
+SLURM_JOB_QOS=lonepeak-osg-slate
+LMOD_SYSTEM_DEFAULT_MODULES=chpc
+MODULEPATH_ROOT=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18
+SSH_CLIENT=155.101.6.253 33338 22
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+TMPDIR=/tmp
+LMOD_PKG=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+LMOD_VERSION=8.1.10
+OSG_WN_TMP=/scratch/local/.osgscratch
+__LMOD_REF_COUNT_LOADEDMODULES=chpc/1.0:1
+QT_GRAPHICSSYSTEM_CHECKED=1
+OSG_SQUID_LOCATION=squid.chpc.utah.edu:3128
+NODE_COUNT=1
+OSVER=7.6.1810
+USER=osg-slate
+SLURM_NNODES=1
+OSG_SITE_WRITE=
+LD_LIBRARY_PATH=$ORIGIN/../lib:$ORIGIN/../lib/condor
+LMOD_sys=Linux
+UUFSCELL=lonepeak.peaks
+SLURM_JOBID=1243578
+__LMOD_REF_COUNT__LMFILES_=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Core/chpc/1.0.lua:1
+SLURM_NTASKS=1
+CONDORCE_COLLECTOR_HOST=sl-ut-knode-mgmt.chpc.utah.edu:9619
+OSG_SITE_READ=
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXtjaHBjPXtbImZuIl09Ii91dWZzL2NocGMudXRhaC5lZHUvc3lzL21vZHVsZWZpbGVzL0NIUEMtMTgvQ29yZS9jaHBjLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY2hwYy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17bG1vZD17WyJzdGlja3kiXT0xLH0sfSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjaHBjIix9LH0sbXBhdGhBPXsiL3V1ZnMvY2hwYy51dGFoLmVkdS9zeXMvbW9kdWxlZmlsZXMvQ0hQQy0xOC9MaW51eCIsIi91dWZzL2NocGMudXRh
+PATH=/usr/lib64/qt-3.3/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/uufs/chpc.utah.edu/sys/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/uufs/lonepeak.peaks/sys/pkg/slurm/std/bin:/opt/dell/srvadmin/bin
+MAIL=/var/spool/mail/osg-slate
+SLURM_TASKS_PER_NODE=1
+SLURM_WORKING_CLUSTER=lonepeak:lprm:6817:8192
+SLURM_JOB_ID=1243578
+OSG_DATA=UNAVAILABLE
+PWD=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/762f/762f0ae4/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#74.0#1572388912/home_bl_sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#74.0#1572388912
+SLURM_JOB_USER=osg-slate
+_LMFILES_=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Core/chpc/1.0.lua
+LANG=C
+MODULEPATH=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Linux:/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Core:/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/modulefiles/Core
+KDEDIRS=/usr
+_ModuleTable_Sz_=2
+LOADEDMODULES=chpc/1.0
+SLURM_JOB_UID=67356
+SLURM_NODEID=0
+SLURM_SUBMIT_DIR=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/762f/762f0ae4/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#74.0#1572388912
+OSG_GRID=/uufs/chpc.utah.edu/common/home/osg-slate
+LMOD_CMD=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/libexec/lmod
+SLURM_NPROCS=1
+SLURM_TASK_PID=8124
+SLURM_CPUS_ON_NODE=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HISTCONTROL=ignoredups
+ENVIRONMENT=BATCH
+SLURM_PROCID=0
+OSG_HOSTNAME=sl-ut-knode-mgmt.chpc.utah.edu
+SLURM_JOB_NODELIST=lp125
+HOME=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/762f/762f0ae4/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#74.0#1572388912/home_bl_sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#74.0#1572388912
+SHLVL=5
+__LMOD_REF_COUNT_PATH=/uufs/chpc.utah.edu/sys/bin:1;/usr/lib64/ccache:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1
+SLURM_LOCALID=0
+OSG_STORAGE_ELEMENT=False
+X509_USER_PROXY=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/762f/762f0ae4/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#74.0#1572388912/credential_osg-flock-grid-iu-edu_OSG_gWMSFrontend.main_291573
+_ModuleTable002_=aC5lZHUvc3lzL21vZHVsZWZpbGVzL0NIUEMtMTgvQ29yZSIsIi91dWZzL2NocGMudXRhaC5lZHUvc3lzL2luc3RhbGxkaXIvbG1vZC84LjEuMTAvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvdXVmcy9jaHBjLnV0YWguZWR1L3N5cy9tb2R1bGVmaWxlcy9DSFBDLTE4L0xpbnV4Oi91dWZzL2NocGMudXRhaC5lZHUvc3lzL21vZHVsZWZpbGVzL0NIUEMtMTgvQ29yZTovdXVmcy9jaHBjLnV0YWguZWR1L3N5cy9pbnN0YWxsZGlyL2xtb2QvOC4xLjEwL21vZHVsZWZpbGVzL0NvcmUiLH0=
+SLURM_CLUSTER_NAME=lonepeak
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_JOB_GID=1722
+SLURM_SUBMIT_HOST=lonepeak1
+SLURM_GTIDS=0
+BASH_ENV=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/init/bash
+SLURM_JOB_PARTITION=lonepeak-osg
+OSG_DEFAULT_SE=
+MODULERCFILE=/uufs/chpc.utah.edu/sys/modulefiles/etc/rc
+LOGNAME=osg-slate
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+XDG_DATA_DIRS=/uufs/chpc.utah.edu/common/home/osg-slate/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=155.101.6.253 33338 155.101.26.232 22
+SLURM_JOB_ACCOUNT=lonepeak-osg-slate
+OSG_SITE_NAME=OSG_US_UUTAH_LONEPEAK
+MODULESHOME=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10
+SLURM_JOB_NUM_NODES=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_SETTARG_FULL_SUPPORT=no
+__Init_Default_Modules=1
+XDG_RUNTIME_DIR=/run/user/67356
+GLITE_LOCATION=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/glite
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+OSREL=CentOS
+LMOD_SHORTTIME=86400
+LMOD_DIR=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/libexec
+SLURM_MEM_PER_NODE=2048
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/usr/bin/env
+------- =================== ---------------
+Tue Oct 29 18:10:17 MDT 2019 GLOBUS_LOCATION not defined and could not guess it.
+Tue Oct 29 18:10:17 MDT 2019 Looked in:
+Tue Oct 29 18:10:17 MDT 2019  /opt/globus/etc/globus-user-env.sh
+Tue Oct 29 18:10:17 MDT 2019  /osgroot/osgcore/globus/etc/globus-user-env.sh
+Tue Oct 29 18:10:17 MDT 2019 Continuing like nothing happened
+Tue Oct 29 18:10:17 MDT 2019 GLOBUS_PATH not defined and /etc/globus-user-env.sh does not exist.
+Tue Oct 29 18:10:17 MDT 2019 Continuing like nothing happened
+Setting X509_USER_PROXY /uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/762f/762f0ae4/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#74.0#1572388912/credential_osg-flock-grid-iu-edu_OSG_gWMSFrontend.main_291573 to canonical path /uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/762f/762f0ae4/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#74.0#1572388912/credential_osg-flock-grid-iu-edu_OSG_gWMSFrontend.main_291573
+mktemp: failed to create directory via template '/scratch/local/.osgscratch/glide_XXXXXX': Permission denied
+Tue Oct 29 18:10:17 MDT 2019 Cannot create temp '/scratch/local/.osgscratch/glide_XXXXXX'

@@ -1,0 +1,35 @@
+Starting glidein_startup.sh at Tue Oct 29 13:42:20 MDT 2019 (1572378140)
+script_checksum   = '1974ae336a84d301408afae627d705c3  /uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/95b5/95b5a3ad/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#54.0#1572374608/condor_exec.exe'
+debug_mode        = 'std'
+condorg_cluster   = '881635'
+condorg_subcluster= '0'
+condorg_schedd    = 'schedd_glideins6@gfactory-2.opensciencegrid.org'
+glidein_credential_id = '291573'
+glidein_factory   = 'OSG'
+glidein_name      = 'gfactory_instance'
+glidein_entry     = 'CMS_US_UofU_sl-ut-knode-mgmt'
+client_name       = 'osg-flock-grid-iu-edu_OSG_gWMSFrontend.main'
+client_group       = 'main'
+work_dir          = 'OSG'
+web_dir           = 'http://gfactory-2.opensciencegrid.org/factory/stage'
+sign_type         = 'sha1'
+proxy_url         = 'None'
+descript_fname    = 'description.jas6uJ.cfg'
+descript_entry_fname = 'description.jas6uJ.cfg'
+sign_id           = '14aeb49305230196d41578d0bed471e2eac693a2'
+sign_entry_id     = 'e857070adb8400d1756f37bda85f5917e00c9cb6'
+client_web_dir              = 'http://flock.opensciencegrid.org/vofrontend/stage'
+client_descript_fname       = 'description.jasgzo.cfg'
+client_sign_type            = 'sha1'
+client_sign_id              = '7c8100669b7ffe079672d24f27ba323e7ca6ca0c'
+client_web_group_dir        = 'http://flock.opensciencegrid.org/vofrontend/stage/group_main'
+client_descript_group_fname = 'description.jasgzo.cfg'
+client_sign_group_id        = 'a351a90625d3081917ff9c7e56d37d032d2caab9'
+
+Running on lp132
+System: Linux lp132 3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+Release: CentOS Linux release 7.6.1810 (Core) 
+As: uid=67356(osg-slate) gid=1722(chpc) groups=1722(chpc)
+PID: 13966
+
+Started in /uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/95b5/95b5a3ad/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#54.0#1572374608/home_bl_sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#54.0#1572374608

@@ -1,0 +1,152 @@
+------- Initial environment ---------------
+SLURM_NODELIST=lp118
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+MANPATH=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/share/man:/usr/kerberos/man:/uufs/chpc.utah.edu/sys/man:/usr/local/share/man:/usr/share/man/overrides:/usr/share/man:/uufs/lonepeak.peaks/sys/pkg/slurm/std/share/man:/uufs/lonepeak.peaks/sys/pkg/slurm/std/share/man
+SLURM_JOB_NAME=bl_c4d03d64bec3
+XDG_SESSION_ID=70513
+HOSTNAME=lp118
+SLURM_TOPOLOGY_ADDR=lp118
+SLURMD_NODENAME=lp118
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+__LMOD_REF_COUNT_MODULEPATH=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Linux:1;/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Core:1;/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/modulefiles/Core:1
+SHELL=/bin/bash
+LMOD_ROOT=/uufs/chpc.utah.edu/sys/installdir/lmod
+HISTSIZE=1000
+SLURM_JOB_QOS=lonepeak-osg-slate
+LMOD_SYSTEM_DEFAULT_MODULES=chpc
+MODULEPATH_ROOT=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18
+SSH_CLIENT=155.101.6.253 34508 22
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+TMPDIR=/tmp
+LMOD_PKG=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+LMOD_VERSION=8.1.10
+OSG_WN_TMP=/scratch/local/.osgscratch
+__LMOD_REF_COUNT_LOADEDMODULES=chpc/1.0:1
+QT_GRAPHICSSYSTEM_CHECKED=1
+OSG_SQUID_LOCATION=squid.chpc.utah.edu:3128
+NODE_COUNT=1
+OSVER=7.6.1810
+USER=osg-slate
+SLURM_NNODES=1
+OSG_SITE_WRITE=
+LD_LIBRARY_PATH=$ORIGIN/../lib:$ORIGIN/../lib/condor
+LMOD_sys=Linux
+UUFSCELL=lonepeak.peaks
+SLURM_JOBID=1243698
+__LMOD_REF_COUNT__LMFILES_=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Core/chpc/1.0.lua:1
+SLURM_NTASKS=1
+CONDORCE_COLLECTOR_HOST=sl-ut-knode-mgmt.chpc.utah.edu:9619
+OSG_SITE_READ=
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXtjaHBjPXtbImZuIl09Ii91dWZzL2NocGMudXRhaC5lZHUvc3lzL21vZHVsZWZpbGVzL0NIUEMtMTgvQ29yZS9jaHBjLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY2hwYy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17bG1vZD17WyJzdGlja3kiXT0xLH0sfSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjaHBjIix9LH0sbXBhdGhBPXsiL3V1ZnMvY2hwYy51dGFoLmVkdS9zeXMvbW9kdWxlZmlsZXMvQ0hQQy0xOC9MaW51eCIsIi91dWZzL2NocGMudXRh
+PATH=/usr/lib64/qt-3.3/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/uufs/chpc.utah.edu/sys/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/uufs/lonepeak.peaks/sys/pkg/slurm/std/bin:/opt/dell/srvadmin/bin
+MAIL=/var/spool/mail/osg-slate
+SLURM_TASKS_PER_NODE=1
+SLURM_WORKING_CLUSTER=lonepeak:lprm:6817:8192
+SLURM_JOB_ID=1243698
+OSG_DATA=UNAVAILABLE
+PWD=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/e4c0/e4c034fc/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#212.0#1572449417/home_bl_sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#212.0#1572449417
+SLURM_JOB_USER=osg-slate
+_LMFILES_=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Core/chpc/1.0.lua
+LANG=C
+MODULEPATH=/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Linux:/uufs/chpc.utah.edu/sys/modulefiles/CHPC-18/Core:/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/modulefiles/Core
+KDEDIRS=/usr
+_ModuleTable_Sz_=2
+LOADEDMODULES=chpc/1.0
+SLURM_JOB_UID=67356
+SLURM_NODEID=0
+SLURM_SUBMIT_DIR=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/e4c0/e4c034fc/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#212.0#1572449417
+OSG_GRID=/uufs/chpc.utah.edu/common/home/osg-slate
+LMOD_CMD=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/libexec/lmod
+SLURM_NPROCS=1
+SLURM_TASK_PID=20391
+SLURM_CPUS_ON_NODE=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HISTCONTROL=ignoredups
+ENVIRONMENT=BATCH
+SLURM_PROCID=0
+OSG_HOSTNAME=sl-ut-knode-mgmt.chpc.utah.edu
+SLURM_JOB_NODELIST=lp118
+HOME=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/e4c0/e4c034fc/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#212.0#1572449417/home_bl_sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#212.0#1572449417
+SHLVL=5
+__LMOD_REF_COUNT_PATH=/uufs/chpc.utah.edu/sys/bin:1;/usr/lib64/ccache:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1
+SLURM_LOCALID=0
+OSG_STORAGE_ELEMENT=False
+X509_USER_PROXY=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/e4c0/e4c034fc/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#212.0#1572449417/credential_osg-flock-grid-iu-edu_OSG_gWMSFrontend.main_291573
+_ModuleTable002_=aC5lZHUvc3lzL21vZHVsZWZpbGVzL0NIUEMtMTgvQ29yZSIsIi91dWZzL2NocGMudXRhaC5lZHUvc3lzL2luc3RhbGxkaXIvbG1vZC84LjEuMTAvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvdXVmcy9jaHBjLnV0YWguZWR1L3N5cy9tb2R1bGVmaWxlcy9DSFBDLTE4L0xpbnV4Oi91dWZzL2NocGMudXRhaC5lZHUvc3lzL21vZHVsZWZpbGVzL0NIUEMtMTgvQ29yZTovdXVmcy9jaHBjLnV0YWguZWR1L3N5cy9pbnN0YWxsZGlyL2xtb2QvOC4xLjEwL21vZHVsZWZpbGVzL0NvcmUiLH0=
+SLURM_CLUSTER_NAME=lonepeak
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_JOB_GID=1722
+SLURM_SUBMIT_HOST=lonepeak1
+SLURM_GTIDS=0
+BASH_ENV=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/init/bash
+SLURM_JOB_PARTITION=lonepeak-osg
+OSG_DEFAULT_SE=
+MODULERCFILE=/uufs/chpc.utah.edu/sys/modulefiles/etc/rc
+LOGNAME=osg-slate
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+XDG_DATA_DIRS=/uufs/chpc.utah.edu/common/home/osg-slate/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=155.101.6.253 34508 155.101.26.232 22
+SLURM_JOB_ACCOUNT=lonepeak-osg-slate
+OSG_SITE_NAME=OSG_US_UUTAH_LONEPEAK
+MODULESHOME=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10
+SLURM_JOB_NUM_NODES=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_SETTARG_FULL_SUPPORT=no
+__Init_Default_Modules=1
+XDG_RUNTIME_DIR=/run/user/67356
+GLITE_LOCATION=/uufs/chpc.utah.edu/common/home/osg-slate/bosco/glite
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+OSREL=CentOS
+LMOD_SHORTTIME=86400
+LMOD_DIR=/uufs/chpc.utah.edu/sys/installdir/lmod/8.1.10/libexec
+SLURM_MEM_PER_NODE=2048
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/usr/bin/env
+------- =================== ---------------
+Wed Oct 30 09:30:56 MDT 2019 GLOBUS_LOCATION not defined and could not guess it.
+Wed Oct 30 09:30:56 MDT 2019 Looked in:
+Wed Oct 30 09:30:56 MDT 2019  /opt/globus/etc/globus-user-env.sh
+Wed Oct 30 09:30:56 MDT 2019  /osgroot/osgcore/globus/etc/globus-user-env.sh
+Wed Oct 30 09:30:56 MDT 2019 Continuing like nothing happened
+Wed Oct 30 09:30:56 MDT 2019 GLOBUS_PATH not defined and /etc/globus-user-env.sh does not exist.
+Wed Oct 30 09:30:56 MDT 2019 Continuing like nothing happened
+Setting X509_USER_PROXY /uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/e4c0/e4c034fc/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#212.0#1572449417/credential_osg-flock-grid-iu-edu_OSG_gWMSFrontend.main_291573 to canonical path /uufs/chpc.utah.edu/common/home/osg-slate/bosco/sandbox/e4c0/e4c034fc/sl-ut-knode-mgmt.chpc.utah.edu_9619_sl-ut-knode-mgmt.chpc.utah.edu#212.0#1572449417/credential_osg-flock-grid-iu-edu_OSG_gWMSFrontend.main_291573
+mktemp: failed to create directory via template '/scratch/local/.osgscratch/glide_XXXXXX': Permission denied
+Wed Oct 30 09:30:56 MDT 2019 Cannot create temp '/scratch/local/.osgscratch/glide_XXXXXX'
+
+=== Encoded XML description of glidein activity ===
+begin-base64 644 -
+H4sIAF+xuV0AA81XbXPiNhD+fr9C45vOtTOxLb9g4wzhyhEn4Y7AFcyl3zSyLIN7xqK2nCP99V2/
+QBIOkkk/lWGcWPvsrvbR7mrpfdyuU3TP8yIR2YViaFj52H/Xm86vA17IGS/KVKIkulCWaRLxJCOF
+pLksN1qxUh7VbM3SDKX/DqGe2PCcyiRb8uw+yUW25pmsBCCCFZTRNX80FlMmRf6g9MFfTwf5SWT1
+pvSXrQJJMthHxvjLSuC6Mj68nZMFfEW8IEWqllL9nomIq+vlWh43wEQWiXxJWFoWkudKv9t1MTZe
+BhdluMfjlzfGch7B5hKakiRS+qZndFzrFetsxSPANn9Ja6lwft9xopoacJ8VLOFAzDJPIg30ThhN
+ASRbUkWxVONUsO9qpaQmpcqjksCJkOXd7fwKzlDyLNLWNMletLbMRblR+qdxZVFRU7krUipPnB3N
+2Urpb7sOcezjCFHAkYLD6RyNk6zcopynnBYcuZqjGV0Do1+HIue/oePqK1HIJvB0YxjdEyH9AKr1
+sowLna02TCslXWlAi87Eei0yfSXWXN9HooeiYEIvaBaFYqtzm+H6Ydkx0w8zTntmkHiO4f2Ulc8x
+703D1PB7yBHTtj3bcGv3JExf0ftPtvd89PRTpdyT0Bpaytg6+h/z1BQP4VvONHgg9R4VMkJqdcjo
+p2aC1LphoJf6BVKbbK8tvKFykNoULnpj/SJ1k4vtA5qIDPbXQhG4QOoPHqKVlJtzXX/Zht5KdQhz
+CVaKZJkhw6Y8tD0Ld0wLG54T2cBbN8Ihj2zX4CanzPEsajbwhhje7bjYxTQKuzbGkeF2nNhyw4h2
+O3HHM1yOMfNY6DQ68mHDUbGiBlIjXrA82Ui0+wduDe0vWjjlZ43Fy0dA4+ckKsmb0Dc0p2tyPR5d
++qMJGdYn8sbTKMN1Iqs+nESo6b+wmAoJifogSoniZMuj3Wk/obr2cJTlexG3PnZEN8o13S6DxoQd
+xwvdOObY9RzXjEw7Nt2QWqbFXUYdRjF7qvSEwGbxFI3Lf0RDUAOrGzFq4tzvv1l8cxB6rUeeGqu2
+1lijVsegHnbMTmThrgEZEMcec3nHiSw3whZEyCgNvcP9N9qngmgOdzidXE5n5Js/m4+mE9TVIiHP
+mqd5mADXaVXhZAF3wMQHjUP5ZxGSW7olQQJFa+Auxs8Qw/HInwRkxv+eQJnv+4K2htulODNrn4dc
+1Wv5frdVll36V4PFOKh2HgxGE39GLkfzYDb6tAiqCDz8CyEHZqrWeC9aRzx1NSZSkZ1VvbKQWhYW
+mzPvVS3niJbxqlb3mdZPJTUejG7J3XT2ZTy68pHlPFJ2C2II7Au5/jRHxlEiafb9QAI61QGMopQj
+0z7gvxKKLAHO4a4hfkbDFErviqZwnk/43WF3KWFb9kGyDGbDG0irmFZDaytafL0cBD4gxmN/GADo
+bhTckGD4FQV5ubc/Dwaz4JJ8nn4igyCYzdG2g71qXqm7LzSLvziD2wYuNXpWiSDV8q+V6OqPweTY
++rfpBG6IYxIfaik9Kthukuq+hXJopLBaua0M7aOZ++R2EAxvyGAR3DwLoeUApqIDBna8zfhG5JJc
+gXug92ihDEWa8ir5UdMhXsj8Nn08mIvbnPK6Xl3p9QiMmom5brS7JRiKq3GhGRzkvPoh0Tfh7lEN
+rFo4wN65hc87joqdcwzYFtHC/Sw6AHcA3NmDK3k9tTwZTtZc5glrR7oY4i5zriBZXCgnLSmozJML
+BaKnqdK/A9b8+XQxG/o9vbHWmobmKMui789m01lPb98aUcQluGpe0JBmmZAILhqoMyT5eoM+6ND3
+qGQrvfaia1CYu5V6LCB/1p8PjTl9Z6+nP/tV1n/3L+j8u4C8DQAA
+====
+=== End encoded XML description of glidein activity ===
