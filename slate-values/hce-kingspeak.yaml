@@ -1,0 +1,96 @@
+Instance: "kingspeak"
+
+# Site information that should match the CE Topology registration
+Site:
+  Resource: SLATE_US_UUTAH_KINGSPEAK
+  ResourceGroup: CHPC Group
+  Sponsor: osg:100
+  Contact: Mitchell Steinman
+  ContactEmail: chpc-osg-support@lists.utah.edu
+  City: Salt Lake City
+  Country: United States
+  Latitude: 40.7608
+  Longitude: -111.891
+
+Cluster:
+  PrivateKeySecret: utah-lp-hostedce-privkey # maps to SLATE secret
+  Memory: 24000
+  CoresPerNode: 4
+  MaxWallTime: 4320
+  AllowedVOs: osg, cms, atlas, glow, hcc, fermilab, ligo, virgo, sdcc, sphenix, gluex, icecube, xenon
+
+Storage:
+  GridDir: $HOME/bosco-osg-wn-client
+  WorkerNodeTemp: /scratch/local/.osgscratch
+
+Squid:
+  Enabled: True
+  Location: sl-uu-es1.slateci.io:31726
+  
+Networking:
+  # The hostname that the CE should use. 
+  # Appropriate A and PTR DNS records must exist.
+  Hostname: "sl-uu-hce1.slateci.io"
+  # The preferred IP address which should be requested from the LoadBalancer. 
+  # This may be left as null to express no preference. 
+  # Setting this may be useful when redeploying a CE in order to try to get
+  # back the same IP address that was used previously. 
+  RequestIP: 155.101.6.240
+
+########### REQUIRED ###########
+# Specify additional HTCondor-CE configuration. JOB_ROUTER_ENTRIES is required!
+HTCondorCeConfig: |+
+  JOB_ROUTER_ENTRIES @=jre
+  [
+    GridResource = "batch slurm osg-slate@kingspeak1.chpc.utah.edu";
+    Requirements = (Owner == "osg-slate");
+  ]
+  @jre
+# Options to allow override of the bosco directory from arbitrary git repos
+# Bosco override dirs are expected in the following location in the git repo:
+#   <RESOURCE NAME>/bosco_override/
+BoscoOverrides:
+  Enabled: true
+  GitEndpoint: "https://github.com/slateci/utah-bosco.git"
+  RepoNeedsPrivKey: false
+  GitKeySecret: none
+
+# Enable a logging sidecar
+HTTPLogger:
+  Enabled: true
+  # If you want to insert a password instead of using a randomly generated one,
+  # point Secret to a K8S/SLATE secret below.
+  # Secret: my-secret
+
+# Default VO-user mappings for OSG Hosted CEs
+# Change these contents for legacy OSG Hosted CEs or non-OSG Hosted CEs
+VomsmapOverride: |+
+  "/osg/Role=NULL/Capability=NULL" osg-slate
+  "/GLOW/Role=htpc/Capability=NULL" osg-slate
+  "/hcc/Role=NULL/Capability=NULL" osg-slate
+  "/cms/*" osg-slate
+  "/fermilab/*" osg-slate
+  "/osg/ligo/Role=NULL/Capability=NULL" osg-slate
+  "/virgo/ligo/Role=NULL/Capability=NULL" osg-slate
+  "/sdcc/Role=NULL/Capability=NULL" osg-slate
+  "/sphenix/Role=NULL/Capability=NULL" osg-slate
+  "/atlas/*" osg-slate
+  "/Gluex/Role=NULL/Capability=NULL" osg-slate
+  "/dune/Role=pilot/Capability=NULL" osg-slate
+  "/icecube/Role=pilot/Capability=NULL" osg-slate
+  "/xenon.biggrid.nl/Role=NULL/Capability=NULL" osg-slate
+
+# If you wish to allow yourself to submit to this CE with your personal grid
+# proxy, you can put that in below. This will get directly mapped into
+# /etc/grid-security/grid-mapfile
+#
+#GridmapOverride: |+
+#  "/DC=foo/DC=bar/OU=Organic Units/OU=Users/CN=YourUserName" osg
+
+# FOR DEVELOPMENT PURPOSES ONLY!
+# Setting 'Enabled: true' below does the following:
+# - Configures the CE as an ITB host
+# - Generates a test CA and self-signed host cert/key pair
+Developer:
+  Enabled: false
+
