@@ -41,7 +41,7 @@ Networking:
 HTCondorCeConfig: |+
   JOB_ROUTER_ENTRIES @=jre
   [
-    GridResource = "batch slurm osg-slate@notchpeak1.chpc.utah.edu";
+    GridResource = "batch slurm osgusern@notchpeak1.chpc.utah.edu";
     Requirements = (Owner == "osg-slate");
   ]
   @jre
