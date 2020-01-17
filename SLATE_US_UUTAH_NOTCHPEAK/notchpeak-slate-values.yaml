@@ -42,7 +42,7 @@ HTCondorCeConfig: |+
   JOB_ROUTER_ENTRIES @=jre
   [
     GridResource = "batch slurm osgusern@notchpeak1.chpc.utah.edu";
-    Requirements = (Owner == "osg-slate");
+    Requirements = (Owner == "osgusern");
   ]
   @jre
 # Options to allow override of the bosco directory from arbitrary git repos
