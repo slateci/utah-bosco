@@ -24,7 +24,6 @@ Storage:
   WorkerNodeTemp: /scratch/local/.osgscratch
 
 Squid:
-  Enabled: True
   Location: sl-uu-es1.slateci.io:31726
   
 Networking:
