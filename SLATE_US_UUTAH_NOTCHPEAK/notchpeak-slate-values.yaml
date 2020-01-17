@@ -34,7 +34,7 @@ Networking:
   # This may be left as null to express no preference. 
   # Setting this may be useful when redeploying a CE in order to try to get
   # back the same IP address that was used previously. 
-  RequestIP: 155.101.6.239
+  RequestIP: 155.101.6.236
 
 ########### REQUIRED ###########
 # Specify additional HTCondor-CE configuration. JOB_ROUTER_ENTRIES is required!
@@ -84,7 +84,7 @@ VomsmapOverride: |+
 # /etc/grid-security/grid-mapfile
 #
 GridmapOverride: |+
-  "/DC=org/DC=cilogon/C=US/O=University of Wisconsin-Madison/CN=Brian Lin A2266246"
+  "/DC=org/DC=cilogon/C=US/O=University of Wisconsin-Madison/CN=Brian Lin A2266246" osgusern
 
 # Use a pre-existing certificate/key pair stored in a secret with
 # # 'hostcert.pem' and 'hostkey.pem' keys for the host certificate and
