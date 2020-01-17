@@ -64,20 +64,20 @@ HTTPLogger:
 # Default VO-user mappings for OSG Hosted CEs
 # Change these contents for legacy OSG Hosted CEs or non-OSG Hosted CEs
 VomsmapOverride: |+
-  "/osg/Role=NULL/Capability=NULL" osg-slate
-  "/GLOW/Role=htpc/Capability=NULL" osg-slate
-  "/hcc/Role=NULL/Capability=NULL" osg-slate
-  "/cms/*" osg-slate
-  "/fermilab/*" osg-slate
-  "/osg/ligo/Role=NULL/Capability=NULL" osg-slate
-  "/virgo/ligo/Role=NULL/Capability=NULL" osg-slate
-  "/sdcc/Role=NULL/Capability=NULL" osg-slate
-  "/sphenix/Role=NULL/Capability=NULL" osg-slate
-  "/atlas/*" osg-slate
-  "/Gluex/Role=NULL/Capability=NULL" osg-slate
-  "/dune/Role=pilot/Capability=NULL" osg-slate
-  "/icecube/Role=pilot/Capability=NULL" osg-slate
-  "/xenon.biggrid.nl/Role=NULL/Capability=NULL" osg-slate
+  "/osg/Role=NULL/Capability=NULL" osguserk
+  "/GLOW/Role=htpc/Capability=NULL" osguserk
+  "/hcc/Role=NULL/Capability=NULL" osguserk
+  "/cms/*" osguserk
+  "/fermilab/*" osguserk
+  "/osg/ligo/Role=NULL/Capability=NULL" osguserk
+  "/virgo/ligo/Role=NULL/Capability=NULL" osguserk
+  "/sdcc/Role=NULL/Capability=NULL" osguserk
+  "/sphenix/Role=NULL/Capability=NULL" osguserk
+  "/atlas/*" osguserk
+  "/Gluex/Role=NULL/Capability=NULL" osguserk
+  "/dune/Role=pilot/Capability=NULL" osguserk
+  "/icecube/Role=pilot/Capability=NULL" osguserk
+  "/xenon.biggrid.nl/Role=NULL/Capability=NULL" osguserk
 
 # If you wish to allow yourself to submit to this CE with your personal grid
 # proxy, you can put that in below. This will get directly mapped into
