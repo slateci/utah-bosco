@@ -83,8 +83,8 @@ VomsmapOverride: |+
 # proxy, you can put that in below. This will get directly mapped into
 # /etc/grid-security/grid-mapfile
 #
-#GridmapOverride: |+
-#  "/DC=foo/DC=bar/OU=Organic Units/OU=Users/CN=YourUserName" osg
+GridmapOverride: |+
+  "/DC=org/DC=cilogon/C=US/O=University of Wisconsin-Madison/CN=Brian Lin A2266246"
 
 # Use a pre-existing certificate/key pair stored in a secret with
 # # 'hostcert.pem' and 'hostkey.pem' keys for the host certificate and
