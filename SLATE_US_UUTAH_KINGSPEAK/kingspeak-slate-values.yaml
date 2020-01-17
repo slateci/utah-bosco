@@ -20,7 +20,7 @@ Cluster:
   AllowedVOs: osg, cms, atlas, glow, hcc, fermilab, ligo, virgo, sdcc, sphenix, gluex, icecube, xenon
 
 Storage:
-  GridDir: $HOME/bosco-osg-wn-client
+  GridDir: /uufs/chpc.utah.edu/common/home/osguserk/bosco-osg-wn-client
   WorkerNodeTemp: /scratch/local/.osgscratch
 
 Squid:
