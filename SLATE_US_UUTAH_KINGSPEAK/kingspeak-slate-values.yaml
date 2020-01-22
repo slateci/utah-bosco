@@ -43,7 +43,7 @@ HTCondorCeConfig: |+
   [
     GridResource = "batch slurm osguserk@kingspeak1.chpc.utah.edu";
     Requirements = (Owner == "osguserk");
-    set_default_queue = "lonepeak-osg";
+    set_default_queue = "kingspeak-osg";
     # 16 GB
     set_default_maxMemory = 24576;
     # 72 hours
