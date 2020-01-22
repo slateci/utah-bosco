@@ -14,7 +14,7 @@ Site:
 
 Cluster:
   PrivateKeySecret: utah-kp-hostedce-privkey # maps to SLATE secret
-  Memory: 24000
+  Memory: 24576
   CoresPerNode: 4
   MaxWallTime: 4320
   AllowedVOs: osg, cms, atlas, glow, hcc, fermilab, ligo, virgo, sdcc, sphenix, gluex, icecube, xenon
@@ -43,6 +43,11 @@ HTCondorCeConfig: |+
   [
     GridResource = "batch slurm osguserk@kingspeak1.chpc.utah.edu";
     Requirements = (Owner == "osguserk");
+    set_default_queue = "lonepeak-osg";
+    # 16 GB
+    set_default_maxMemory = 24576;
+    # 72 hours
+    set_BatchRuntime = 4320;
   ]
   @jre
 # Options to allow override of the bosco directory from arbitrary git repos
