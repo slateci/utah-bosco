@@ -14,7 +14,7 @@ Site:
 
 Cluster:
   PrivateKeySecret: utah-np-hostedce-privkey # maps to SLATE secret
-  Memory: 24000
+  Memory: 24576
   CoresPerNode: 4
   MaxWallTime: 4320
   AllowedVOs: osg, cms, atlas, glow, hcc, fermilab, ligo, virgo, sdcc, sphenix, gluex, icecube, xenon
