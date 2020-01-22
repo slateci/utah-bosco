@@ -84,7 +84,7 @@ VomsmapOverride: |+
 # /etc/grid-security/grid-mapfile
 #
 GridmapOverride: |+
-  "/DC=org/DC=cilogon/C=US/O=University of Wisconsin-Madison/CN=Brian Lin A2266246" osgusern
+  "/DC=org/DC=cilogon/C=US/O=University of Utah/CN=HENRY STEINMAN A14364946" osgusern
 
 # Use a pre-existing certificate/key pair stored in a secret with
 # # 'hostcert.pem' and 'hostkey.pem' keys for the host certificate and
