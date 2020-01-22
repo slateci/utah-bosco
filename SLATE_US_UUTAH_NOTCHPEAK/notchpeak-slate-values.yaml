@@ -43,6 +43,11 @@ HTCondorCeConfig: |+
   [
     GridResource = "batch slurm osgusern@notchpeak1.chpc.utah.edu";
     Requirements = (Owner == "osgusern");
+    set_default_queue = "notchpeak-osg";
+    # 16 GB
+    set_default_maxMemory = 16384;
+    # 72 hours
+    set_BatchRuntime = 4320;
   ]
   @jre
 # Options to allow override of the bosco directory from arbitrary git repos
