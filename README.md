@@ -19,7 +19,7 @@ Next download the client following the instructions on that same page. Once this
 
 Then hop over to https://portal.slateci.io/public_groups/slate-dev and request to join the group. Once this request is fulfilled you will have full access to manage the OSG HostedCE instances supporting CHPC.
 
-Full reference on the SLATE Client CLI can be found at https://slateci.io/docs/tools/index.html
+Full reference on the SLATE Client CLI can be found at [SLATE Client Manual](https://github.com/slateci/slate-client-server/blob/master/resources/docs/client_manual.md)
 
 You can view instances running on Utah's SLATE cluster with the command
 
