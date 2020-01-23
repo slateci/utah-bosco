@@ -11,7 +11,48 @@ Additionally, the configuration used by SLATE is stored alongside the bosco over
 
 ## Obtaining and Using the SLATE Client
 
-TODO
+In order to interact with the local CE instances you must obtain the SLATE Client and valid SLATE group membership for the group `slate-dev`. This will allow you to manage these instance using SLATE.
+
+First hop over to https://portal.slateci.io/cli and sign in using your institutional credentials. This will create your SLATE account. From here you can copy and paste the script into your local environment to add your SLATE user credentials (A SLATE Token and API Endpoint). These are simple text files that the SLATE Client expects to find under `$HOME/.slate/`.
+
+Next download the client following the instructions on that same page. Once this is done you should be able to see some clusters by running `slate cluster list`.
+
+Then hop over to https://portal.slateci.io/public_groups/slate-dev and request to join the group. Once this request is fulfilled you will have full access to manage the OSG HostedCE instances supporting CHPC.
+
+Full reference on the SLATE Client CLI can be found at https://slateci.io/docs/tools/index.html
+
+You can view the running instances with the command `slate instance list --cluster uutah-prod`
+
+```
+Name                      Group     ID
+condor-login              slate-dev instance_sVzib4wBWQs
+osg-frontier-squid-global slate-dev instance_OnT-sClDSiU
+osg-hosted-ce-kingspeak   slate-dev instance_4shGbDGoB6w
+osg-hosted-ce-notchpeak   slate-dev instance_Vyir_kuBf3Q
+```
+
+We are specifically interested in only instances of HostedCE so, `slate instance list --cluster uutah-prod |grep osg-hosted-ce`
+
+Each instance will have a helpful label to determine which backing cluster it is attached to.
+
+```
+osg-hosted-ce-kingspeak   slate-dev instance_4shGbDGoB6w
+osg-hosted-ce-notchpeak   slate-dev instance_Vyir_kuBf3Q
+```
+
+The last column of this entry gives us the SLATE Instance ID, which we need to manage the instance. 
+
+An instance can be paused by running `slate instane scale --replicas 0 <SLATE INSTANCE ID>`
+
+The instance can be unpaused by running `slate instance scale --replicas 1 <SLATE INSTANCE ID>`
+
+You can do a simple restart of the instance by running `slate instance restart <SLATE INSTANCE ID>`
+
+You can delete the instance by running `slate instance delete <SLATE INSTANCE ID>`
+
+To view instance specific logs run `slate instance logs <SLATE INSTANCE ID> --max-lines 0`
+
+*Here the --max-lines flag prevents truncated output*
 
 ## How to Configure
 
