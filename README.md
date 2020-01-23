@@ -21,7 +21,9 @@ Then hop over to https://portal.slateci.io/public_groups/slate-dev and request t
 
 Full reference on the SLATE Client CLI can be found at https://slateci.io/docs/tools/index.html
 
-You can view instances running on Utah's SLATE cluster with the command `slate instance list --cluster uutah-prod`
+You can view instances running on Utah's SLATE cluster with the command
+
+`slate instance list --cluster uutah-prod`
 
 ```
 Name                      Group     ID
