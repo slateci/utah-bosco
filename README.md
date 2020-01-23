@@ -60,4 +60,36 @@ To view instance specific logs run `slate instance logs <SLATE INSTANCE ID> --ma
 
 ## How to Configure
 
-TODO
+There is a complete repository of bosco files elgible to be override including scripts and configs. You can copy new overrides from there.
+
+https://github.com/slateci/bosco-override-template
+
+Most configurations are available in `<RESOURCE>/bosco-override/glite/etc/blah.config`
+
+SBATCH Parameters can be editted in `<RESOURCE>/bosco-override/glite/etc/blahp/slurm_local_submit_attributes.sh`
+
+New overrides coppied from the templace must be placed in the approppriate sub directory under `<RESOURCE>/bosco-override/` for the cluster that needs to be patched. Here Resource corresponds directly to a CHPC compute cluster.
+
+Once the repository is updated simply restart the instance in question.
+
+`slate instance restart <SLATE INSTANCE ID>`
+
+Please leave a helpful reason in the commit message for your change.
+
+In order to make changes to the SLATE configuration itself (found in <RESOURCE NAME>/<RESOURCE NAME>_slate_values.yaml)
+  
+You must delete the existing instance
+
+`slate instance delete <SLATE INSTANCE ID>`
+
+Commit your changes to this repository with a helpful commit message
+
+Clone the changes to your local environment (where you have the SLATE Client installed)
+
+`git clone https://github.com/slateci/utah-bosco.git`
+
+Install a new SLATE instance with the updated config
+
+`slate app install osg-hosted-ce --cluster uutah-prod --group slate-dev --dev --conf utah-bosco/<RESOURCE NAME>/<RESOURCE_NAME>_slate_valuess.yaml`
+
+This is all that is needed to make any configuration changes to the SLATE HostedCE instances at CHPC.
