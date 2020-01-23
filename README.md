@@ -31,7 +31,9 @@ osg-hosted-ce-kingspeak   slate-dev instance_4shGbDGoB6w
 osg-hosted-ce-notchpeak   slate-dev instance_Vyir_kuBf3Q
 ```
 
-We are specifically interested in the instances of HostedCE so `slate instance list --cluster uutah-prod |grep osg-hosted-ce`
+We are specifically interested in the instances of HostedCE so 
+
+`slate instance list --cluster uutah-prod |grep osg-hosted-ce`
 
 Each instance will have a helpful label to determine which backing cluster it is attached to.
 
