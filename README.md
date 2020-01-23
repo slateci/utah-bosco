@@ -52,6 +52,8 @@ The instance can be unpaused by running `slate instance scale --replicas 1 <SLAT
 
 You can do a simple restart of the instance by running `slate instance restart <SLATE INSTANCE ID>`
 
+Restarting will also obtain container software updates automatically
+
 You can delete the instance by running `slate instance delete <SLATE INSTANCE ID>`
 
 To view instance specific logs run `slate instance logs <SLATE INSTANCE ID> --max-lines 0`
