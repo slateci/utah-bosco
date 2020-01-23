@@ -104,7 +104,7 @@ https://github.com/slateci/slate-client-server/blob/master/resources/docs/client
 
 https://github.com/slateci/bosco-override-template
 
-https://github.com/slateci/slateci.github.io/blob/hosted-ce-blogpost/_posts/2019-10-21-hosted-ce.md
+https://slateci.io/blog/2020-01-22-deploy-hosted-ce.html
 
 https://opensciencegrid.org/docs/compute-element/troubleshoot-htcondor-ce/
 
