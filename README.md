@@ -52,7 +52,7 @@ You can delete the instance by running `slate instance delete <SLATE INSTANCE ID
 
 To view instance specific logs run `slate instance logs <SLATE INSTANCE ID> --max-lines 0`
 
-*Here the --max-lines flag prevents truncated output*
+*the --max-lines=0 flag prevents truncated output*
 
 ## How to Configure
 
