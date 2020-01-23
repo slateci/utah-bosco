@@ -95,3 +95,19 @@ Install a new SLATE instance with the updated config
 `slate app install osg-hosted-ce --cluster uutah-prod --group slate-dev --dev --conf utah-bosco/<RESOURCE NAME>/<RESOURCE_NAME>_slate_valuess.yaml`
 
 This is all that is needed to make any configuration changes to the SLATE HostedCE instances at CHPC.
+
+## Reference and Additional Docs
+
+https://github.com/slateci/slate-catalog/tree/osg-hosted-ce-doc-update/incubator/osg-hosted-ce/osg-hosted-ce
+
+https://github.com/slateci/slate-client-server/blob/master/resources/docs/client_manual.md
+
+https://github.com/slateci/bosco-override-template
+
+https://github.com/slateci/slateci.github.io/blob/hosted-ce-blogpost/_posts/2019-10-21-hosted-ce.md
+
+https://opensciencegrid.org/docs/compute-element/troubleshoot-htcondor-ce/
+
+https://opensciencegrid.org/docs/compute-element/htcondor-ce-overview/
+
+https://research.cs.wisc.edu/htcondor/manual/v8.6/5_4HTCondor_Job.html
