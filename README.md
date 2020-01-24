@@ -72,9 +72,11 @@ To view instance specific logs run `slate instance logs <SLATE INSTANCE ID> --ma
 
 You will be able to view the logs for two different containers that make up this deployment. One is the CE itself, and will contain all the STDOUT and STDERR for that container. However, the daemons that make up the CE log to various files as well. The second container is a log exporter for these special logs. It will print its random generated credentials out to the SLATE instance logs that we viewed with the command above. Using those credentials we can sign into the log exporter using a web browser. 
 
-[sl-uu-hce1.slateci.io:8080]
-[sl-uu-hce2.slateci.io:8080]
-[sl-uu-hce3.slateci.io:8080]
+[sl-uu-hce1.slateci.io:8080](http://sl-uu-hce1.slateci.io:8080)
+
+[sl-uu-hce2.slateci.io:8080](http://sl-uu-hce1.slateci.io:8080)
+
+[sl-uu-hce3.slateci.io:8080](http://sl-uu-hce1.slateci.io:8080)
 
 ## How to Configure
 
