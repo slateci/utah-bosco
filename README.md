@@ -88,7 +88,7 @@ Most configurations are available in `<RESOURCE>/bosco-override/glite/etc/blah.c
 
 SBATCH Parameters can be editted in `<RESOURCE>/bosco-override/glite/etc/blahp/slurm_local_submit_attributes.sh`
 
-New overrides coppied from the templace must be placed in the approppriate sub directory under `<RESOURCE>/bosco-override/` for the cluster that needs to be patched. Here Resource corresponds directly to a CHPC compute cluster.
+New overrides coppied from the template must be placed in the approppriate sub directory under `<RESOURCE>/bosco-override/` for the cluster that needs to be patched. Here Resource corresponds directly to a CHPC compute cluster.
 
 Once the repository is updated simply restart the instance in question.
 
