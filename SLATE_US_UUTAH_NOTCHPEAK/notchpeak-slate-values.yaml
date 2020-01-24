@@ -48,6 +48,8 @@ HTCondorCeConfig: |+
     set_default_maxMemory = 16384;
     # 72 hours
     set_BatchRuntime = 4320;
+    # 8 core jobs 
+    set_default_xcount = 8;
   ]
   @jre
 # Options to allow override of the bosco directory from arbitrary git repos
