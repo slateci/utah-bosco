@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "#SBATCH --ntasks=4"
+#echo "#SBATCH --ntasks=4"
