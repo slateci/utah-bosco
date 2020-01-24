@@ -98,16 +98,30 @@ This is all that is needed to make any configuration changes to the SLATE Hosted
 
 ## Reference and Additional Docs
 
-https://github.com/slateci/slate-catalog/tree/osg-hosted-ce-doc-update/incubator/osg-hosted-ce/osg-hosted-ce
+*Main application documentation*
+
+https://portal.slateci.io/applications/incubator/osg-hosted-ce
+
+*SLATE Client manual*
 
 https://github.com/slateci/slate-client-server/blob/master/resources/docs/client_manual.md
 
+*Bosco override full template*
+
 https://github.com/slateci/bosco-override-template
+
+*Blog following original deployment of these specific instances*
 
 https://slateci.io/blog/2020-01-22-deploy-hosted-ce.html
 
+*OSG Guide to Troubleshooting CEs*
+
 https://opensciencegrid.org/docs/compute-element/troubleshoot-htcondor-ce/
 
+*OSG Overview of CE*
+
 https://opensciencegrid.org/docs/compute-element/htcondor-ce-overview/
+
+*HTCondor Manual on the Job Router*
 
 https://research.cs.wisc.edu/htcondor/manual/v8.6/5_4HTCondor_Job.html
