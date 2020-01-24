@@ -1,3 +1,3 @@
 #!/bin/sh
-echo "#SBATCH --ntasks=8"
+# echo "#SBATCH --ntasks=8"
 
