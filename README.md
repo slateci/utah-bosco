@@ -11,7 +11,7 @@ Additionally, the configuration used by SLATE is stored alongside the bosco over
 
 ## Obtaining and Using the SLATE Client
 
-In order to interact with the local CE instances you must obtain the SLATE Client and valid SLATE group membership for the group `slate-dev`. This will allow you to manage these instance using SLATE.
+In order to interact with the local CE instances you must obtain the SLATE Client and valid SLATE group membership for the group `uu-chpc-ops`. This will allow you to manage these instance using SLATE.
 
 First hop over to https://portal.slateci.io/cli and sign in using your institutional credentials. This will create your SLATE account. From here you can copy and paste the script into your local environment to add your SLATE user credentials (A SLATE Token and API Endpoint). These are simple text files that the SLATE Client expects to find under `$HOME/.slate/`.
 
