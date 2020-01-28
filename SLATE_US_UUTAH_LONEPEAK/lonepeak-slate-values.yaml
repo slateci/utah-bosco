@@ -13,6 +13,8 @@ Site:
   Longitude: -111.891
 
 Cluster:
+  RemoteHost: lonepeak1.chpc.utah.edu
+  RemoteBatch: slurm
   PrivateKeySecret: utah-lp-hostedce-privkey # maps to SLATE secret
   Memory: 24000
   CoresPerNode: 4
