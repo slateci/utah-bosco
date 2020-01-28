@@ -1,7 +1,7 @@
 # Hosted-CE Config Overrides for Univ of Utah CHPC
 
 ## What is this?
-The [OSG HostedCE](https://opensciencegrid.org/docs/compute-element/htcondor-ce-overview/) is an entrypoint for OSG jobs entering local resources. The CE will accept jobs from the OSG factory and route them appropriately to local resources. In this case, SLURM clusters running at the CHPC.
+The [OSG HostedCE](https://opensciencegrid.org/docs/compute-element/htcondor-ce-overview/) is an entrypoint for OSG jobs entering local resources. The CE will accept jobs from the OSG factory and route them appropriately to the local compute resources. In this case, SLURM clusters running at the CHPC.
 
 OSG HostedCEs are deployed locally through [SLATE](https://slateci.io). There is a unique instance of the CE running for each backing cluster at the CHPC (Lonepeak, Kingspeak, and Notchpeak currently). These instances can be managed, stopped, started, and updated using the [SLATE Client](https://slateci.io/docs/tools/index.html) and these overrides.
 
