@@ -13,6 +13,8 @@ Site:
   Longitude: -111.891
 
 Cluster:
+  RemoteHost: kingspeak1.chpc.utah.edu
+  RemoteBatch: slurm
   PrivateKeySecret: utah-kp-hostedce-privkey # maps to SLATE secret
   Memory: 24576
   CoresPerNode: 4
