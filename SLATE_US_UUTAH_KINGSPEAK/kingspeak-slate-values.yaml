@@ -16,7 +16,7 @@ Cluster:
   RemoteHost: kingspeak1.chpc.utah.edu
   RemoteBatch: slurm
   PrivateKeySecret: utah-kp-hostedce-privkey # maps to SLATE secret
-  Memory: 24576
+  Memory: 8192
   CoresPerNode: 4
   MaxWallTime: 4320
   AllowedVOs: osg, cms, atlas, glow, hcc, fermilab, ligo, virgo, sdcc, sphenix, gluex, icecube, xenon
@@ -47,7 +47,7 @@ HTCondorCeConfig: |+
     Requirements = (Owner == "osguserk");
     set_default_queue = "kingspeak-osg";
     # 16 GB
-    set_default_maxMemory = 24576;
+    set_default_maxMemory = 8192;
     # 72 hours
     set_BatchRuntime = 4320;
     # 4 core jobs
