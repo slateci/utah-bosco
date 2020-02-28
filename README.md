@@ -114,6 +114,24 @@ Install a new SLATE instance with the updated config
 
 This is all that is needed to make any configuration changes to the SLATE HostedCE instances at CHPC.
 
+## Glide_in Factory Entries
+
+The glide_in entries are where the grid factory configure glide_ins for each CE. These are the jobs sent to the CE by the factory. These are defined in XML in the GitHub repo:
+
+https://github.com/opensciencegrid/osg-gfactory
+
+Our entries are contained in a file called 10-noncms-osg.xml
+
+https://github.com/opensciencegrid/osg-gfactory/blob/master/10-noncms-osg.xml
+
+You can search for the resource name or hostname, for example:
+
+`slate-uu-hce1.slateci.io`
+
+or
+
+`SLATE_US_UUTAH_NOTCHPEAK`
+
 ## Reference and Additional Docs
 
 *Main application documentation*
