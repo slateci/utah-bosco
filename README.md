@@ -80,7 +80,7 @@ You will be able to view the logs for two different containers that make up this
 
 ## How to Configure
 
-There is a complete repository of bosco files elgible to be override including scripts and configs. You can copy new overrides from there.
+There is a complete repository of bosco files elgible to be overriden including scripts and configs. You can copy new overrides from there.
 
 https://github.com/slateci/bosco-override-template
 
