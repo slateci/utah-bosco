@@ -43,6 +43,19 @@ Networking:
 HTCondorCeConfig: |+
   JOB_ROUTER_ENTRIES @=jre
   [
+    name = "OSG_COVID19_Jobs";
+    GridResource = "batch slurm osguserk@kingspeak1.chpc.utah.edu";
+    Requirements = (Owner == "osguserk"); 
+    set_default_queue = "kingspeak-osg"
+    Requirements = (TARGET.IsCOVID19 =?= true);
+    # 16 GB
+    set_default_maxMemory = 8192;
+    # 72 hours
+    set_BatchRuntime = 4320;
+    # 4 core jobs
+    set_default_xcount = 4;
+  ]
+  [
     GridResource = "batch slurm osguserk@kingspeak1.chpc.utah.edu";
     Requirements = (Owner == "osguserk");
     set_default_queue = "kingspeak-osg";
