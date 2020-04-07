@@ -54,6 +54,7 @@ HTCondorCeConfig: |+
     set_BatchRuntime = 4320;
     # 4 core jobs
     set_default_xcount = 4;
+    set_reservation = "covid-reservation"
   ]
   [
     GridResource = "batch slurm osguserl@lonepeak1.chpc.utah.edu";
