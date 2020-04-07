@@ -55,6 +55,7 @@ HTCondorCeConfig: |+
     # 4 core jobs
     set_default_xcount = 4;
     set_reservation = "covid-reservation"
+    set_default_CERequirements = "reservation";
   ]
   [
     GridResource = "batch slurm osguserl@lonepeak1.chpc.utah.edu";
