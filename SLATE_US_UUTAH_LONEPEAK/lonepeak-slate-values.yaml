@@ -61,6 +61,7 @@ HTCondorCeConfig: |+
     GridResource = "batch slurm osguserl@lonepeak1.chpc.utah.edu";
     Requirements = (Owner == "osguserl");
     set_default_queue = "lonepeak-osg";
+    Requirements = (TARGET.IsCOVID19 =!= true);
     # 16 GB
     set_default_maxMemory = 16384;
     # 72 hours
