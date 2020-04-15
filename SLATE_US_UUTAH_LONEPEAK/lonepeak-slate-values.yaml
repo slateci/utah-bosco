@@ -58,6 +58,7 @@ HTCondorCeConfig: |+
     set_default_CERequirements = "reservation";
   ]
   [
+    name = "OSG_Opportunistic_Jobs"
     GridResource = "batch slurm osguserl@lonepeak1.chpc.utah.edu";
     Requirements = (Owner == "osguserl");
     set_default_queue = "lonepeak-osg";
@@ -110,6 +111,7 @@ VomsmapOverride: |+
 #
 GridmapOverride: |+
   "/DC=org/DC=cilogon/C=US/O=University of Utah/CN=HENRY STEINMAN A14364946" osguserl
+  "/DC=org/DC=cilogon/C=US/O=University of Utah/CN=JASON STIDD A1602716" osguserl
 
 # Use a pre-existing certificate/key pair stored in a secret with
 # # 'hostcert.pem' and 'hostkey.pem' keys for the host certificate and
