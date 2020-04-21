@@ -48,17 +48,17 @@ HTCondorCeConfig: |+
     Requirements = (Owner == "osguserl");
     set_default_queue = "lonepeak-osg";
     Requirements = (TARGET.IsCOVID19 =?= true);
-    # 16 GB
-    set_default_maxMemory = 16384;
+    # 90 GB
+    set_default_maxMemory = 92160;
     # 72 hours
     set_BatchRuntime = 4320;
-    # 4 core jobs
-    set_default_xcount = 4;
+    # 12 core jobs
+    set_default_xcount = 12;
     set_reservation = "covid-reservation";
     set_default_CERequirements = "reservation";
   ]
   [
-    name = "OSG_Opportunistic_Jobs"
+    name = "OSG_Opportunistic_Jobs";
     GridResource = "batch slurm osguserl@lonepeak1.chpc.utah.edu";
     Requirements = (Owner == "osguserl");
     set_default_queue = "lonepeak-osg";
