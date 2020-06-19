@@ -49,7 +49,7 @@ HTCondorCeConfig: |+
     # 16 GB
     set_default_maxMemory = 8192;
     # 72 hours
-    set_BatchRuntime = 4320;
+    set_BatchRuntime = 259200;
     # 4 core jobs
     set_default_xcount = 4;
   ]
