@@ -3,6 +3,7 @@ Instance: "lonepeak"
 # Site information that should match the CE Topology registration
 Topology:
   Resource: SLATE_US_UUTAH_LONEPEAK
+  ResourceGroup: CHPC Group
   Sponsor: osg:100
   Contact: Mitchell Steinman
   ContactEmail: chpc-osg-support@lists.utah.edu
