@@ -22,7 +22,7 @@ RemoteCluster:
   AllowedVOs: osg, cms, atlas, glow, hcc, fermilab, ligo, virgo, sdcc, sphenix, gluex, icecube, xenon
   GridDir: /uufs/chpc.utah.edu/common/home/osguserl/bosco-osg-wn-client
   WorkerNodeTemp: /scratch/local/.osgscratch
-  Squid: sl-uu-es1.slateci.io:31726
+  Squid: sl-uu-es1.slateci.io:30023
   
 Networking:
   ServiceType: "LoadBalancer"
