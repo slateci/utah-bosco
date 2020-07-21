@@ -26,7 +26,7 @@ Storage:
   WorkerNodeTemp: /scratch/local/.osgscratch
 
 Squid:
-  Location: sl-uu-es1.slateci.io:31726
+  Location: sl-uu-es1.slateci.io:30023
   
 Networking:
   # The hostname that the CE should use. 
