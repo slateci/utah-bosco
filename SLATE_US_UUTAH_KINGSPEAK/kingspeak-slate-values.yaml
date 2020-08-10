@@ -38,8 +38,7 @@ Networking:
 HTCondorCeConfig: |+
   JOB_ROUTER_ENTRIES @=jre
   [
-    GridResource = "batch slurm osguserk@kingspeak1.chpc.utah.edu";
-    Requirements = (Owner == "osguserk");
+    Name = "Kingspeak_default";
     set_default_queue = "kingspeak-osg";
     # 16 GB
     set_default_maxMemory = 8192;
@@ -49,6 +48,9 @@ HTCondorCeConfig: |+
     set_default_xcount = 4;
   ]
   @jre
+  
+  JOB_ROUTER_ROUTE_NAMES = Kingspeak_default
+  
 # Options to allow override of the bosco directory from arbitrary git repos
 # Bosco override dirs are expected in the following location in the git repo:
 #   <RESOURCE NAME>/bosco_override/
